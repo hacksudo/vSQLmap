@@ -6,14 +6,18 @@
 ##Installation
 Preferably, you can download sqlmap by cloning the Git repository:
 
-git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
+git clone https://github.com/hacksudo/vSQLmap
+
 sqlmap works out of the box with Python version 2.6, 2.7 and 3.x on any platform.
 
 ##Usage
 To get a list of basic options and switches use:
 
-python sqlmap.py -h
-To get a list of all options and switches use:
+sudo chmod +x * 
+sudo ./autosqlmap.sh #This script help you to find SQL parameter 
 
-python sqlmap.py -hh
-You can find a sample run here. To get an overview of sqlmap capabilities, a list of supported features, and a description of all options and switches, along with examples, you are advised to consult the user's manual.
+sudo ./sqlmapshell.sh # This help to upload shell on website
+
+sudo ./vsqlmap.sh  # This help you to do SQL injection on your SQL parameter url
+
+*visit - www.hacksudo.com*
